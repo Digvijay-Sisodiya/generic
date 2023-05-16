@@ -18,12 +18,11 @@ def remove_duplicates_from_str_list(input_list):
     for i in input_list:
         if i not in final_list:
             final_list.append(i)
-    return [*final_list] # D i g v j a y
+    return [*final_list]
 
 input_1 = [1,2,4,2,1,4,7]
 final_list = remove_duplicates_from_int_list(input_1)
-# s1 = ['D','I','G','V','I','J','A','Y']
-input_2 = "Digvijay"
+input_2 = "digvijay"
 str_final_list = remove_duplicates_from_str_list(input_2)
 print(final_list)
 print(str_final_list)
