@@ -21,8 +21,8 @@ def remove_duplicates_from_str_list(input_list):
     return [*final_list]
 
 input_1 = [1,2,4,2,1,4,7]
-final_list = remove_duplicates_from_int_list(input_1)
+int_final_output = remove_duplicates_from_int_list(input_1)
 input_2 = "digvijay"
-str_final_list = remove_duplicates_from_str_list(input_2)
-print(final_list)
-print(str_final_list)
+str_final_output = remove_duplicates_from_str_list(input_2)
+print(int_final_output)
+print(str_final_output)
