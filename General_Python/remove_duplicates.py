@@ -1,13 +1,10 @@
 # Remove the duplicates from given list
-# s = [1,2,4,2,1,4,7]
 def remove_duplicates_from_int_list(input_list):
     # Case-1
     # Input list is integer
     # Time Complexity is O(n) where n is the length of input list
     return [*set(input_list)]
 
-# s1 = ['D','I','G','V','I','J','A','Y']
-# s1 = "Digvijay"
 def remove_duplicates_from_str_list(input_list):
     # Case-2
     # input list is string
@@ -23,6 +20,5 @@ final_list = remove_duplicates_from_int_list(s)
 # s1 = ['D','I','G','V','I','J','A','Y']
 s1 = "Digvijay"
 str_final_list = remove_duplicates_from_str_list(s1)
-
 print(final_list)
 print(str_final_list)
