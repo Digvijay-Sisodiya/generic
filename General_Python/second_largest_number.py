@@ -12,6 +12,7 @@ def second_largest_number(input_list):
         elif second_largest is None or i > second_largest:
             second_largest = i
     return second_largest
-n = [1,2,4,2,1,4,7]
-numbers = second_largest_number(n)
-print(numbers)
+if __name__ == "__main__":
+    n = [1,2,4,2,1,4,7]
+    numbers = second_largest_number(n)
+    print(numbers)
