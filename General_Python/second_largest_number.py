@@ -1,8 +1,8 @@
-"""
-- Find second largest number in an input
-- Time Complexity: O(n), where n is the length of the input list.
-"""
 def second_largest_number(input_list):
+    """
+    - Find second largest number in an input
+    - Time Complexity: O(n), where n is the length of the input list.
+    """
     largest = None
     second_largest = None
     for i in input_list:
