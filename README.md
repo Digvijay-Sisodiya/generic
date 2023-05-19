@@ -7,3 +7,12 @@
     - Case-1: Input list is integer
     - Case-2 : Input list is string
 - Find second largest number in given input list
+
+
+# Computer Vision
+## Introduction:
+- In base we are covering basic operations & classes in python. 
+- Also helpful for start learning.
+### Index:
+- `operations.py` : Basic Image operations.
+- `properties.py` : Basic Image Porperties class
