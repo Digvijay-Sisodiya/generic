@@ -30,3 +30,6 @@ venv.bak/
 .vs/
 .vscode/
 node_modules
+
+
+/asset/
