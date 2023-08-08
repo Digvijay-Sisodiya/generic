@@ -22,7 +22,7 @@ def remove_duplicates_from_str_list(input_list):
 if __name__ == "__main__":
     input_1 = [1,2,4,2,1,4,7]
     int_final_output = remove_duplicates_from_int_list(input_1)
-    input_2 = "digvijay"
+    input_2 = "sardar"
     str_final_output = remove_duplicates_from_str_list(input_2)
     print(int_final_output)
     print(str_final_output)
